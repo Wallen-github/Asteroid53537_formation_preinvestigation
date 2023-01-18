@@ -2,7 +2,7 @@
 We want to verify the formation of 53537-503955 pair. 
 
 
-## Version 5
+## Preinvestigation Version 5.0
 
 Primary rotation period currently: $P_{r1} = 72.74~hour$;
 
@@ -22,4 +22,10 @@ $$T(j,R) = \frac{\frac{2 \pi}{P_{r 2}}-\frac{2 \pi}{P_{r 1}}}{\tau_Y} = \frac{1}
 Considering the Yorp torque is a constant, the envolution time is a function of $j$ and $R$.
 
 ![SepTime](SepTime.png)
+
+## InitialPosition Version 1.0
+
+[(Wang et al 2021)](10.1093/mnras/stab1585)
+
+
 
