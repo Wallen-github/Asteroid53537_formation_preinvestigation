@@ -22,3 +22,4 @@ $$T(j,R) = \frac{\frac{2 \pi}{P_{r 2}}-\frac{2 \pi}{P_{r 1}}}{\tau_Y} = \frac{1}
 Considering the Yorp torque is a constant, the envolution time is a function of $j$ and $R$.
 
 ![SepTime](SepTime.png)
+
