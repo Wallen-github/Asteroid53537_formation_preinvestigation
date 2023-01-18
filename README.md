@@ -32,7 +32,7 @@ $$\Gamma^{tid}_A = \frac{3}{2}\frac{k_2^A}{Q_A}\frac{\mu_B}{r^6}(\frac{a_A}{[L]}
 $$\Gamma_{BY} = \frac{rF_sB_s\pi}{a_s^2\sqrt{1-e_s^2}} \frac{r_B^2}{[L]^2}f_{BY}$$
 At the Long-term equilibrium position, these two torques are euqal
 
-$$\Gamma^{tid}_A = \Gamma_{BY} \Rightarrow r^7 = $$
+$$\Gamma^{tid}_A = \Gamma_{BY} \Rightarrow r^7 = \frac{3}{2}\frac{k_2^A}{Q_A}\frac{\mu_B^2a_s^2\sqrt{1-e_s^2}}{F_sB_s\pi\alpha_B^2}(\frac{a_A}{[L]})^5$$
 
 
 
