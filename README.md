@@ -34,7 +34,7 @@ At the Long-term equilibrium position, these two torques are euqal
 
 $$\Gamma^{tid}_A = \Gamma_{BY} \Rightarrow r^7 = \frac{3}{2}\frac{k_2^A}{Q_A}\frac{\mu_B^2a_s^2\sqrt{1-e_s^2}}{F_sB_s\pi\alpha_B^2}(\frac{a_A}{[L]})^5$$
 
-
+in which, we have to note that $\alpha_B = r_B/[L]$ that is related to the secondary's radii $r_B$ and $a_A$ is the primary's longest semi-axis. Hence, the position of long-term equilibrium is just the function of secondary's size and primary's shape. 
 
 
 
