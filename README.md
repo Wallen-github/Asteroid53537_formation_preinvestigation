@@ -28,7 +28,11 @@ This sub-code aims to study the initial speration position w.r.t shape and ratio
 
 The tidal and BYORP torques are
 $$\Gamma^{tid}_A = \frac{3}{2}\frac{k_2^A}{Q_A}\frac{\mu_B}{r^6}(\frac{a_A}{[L]})^5$$
-$$\Gamma_{BY} = \frac{rF_sB_s\pi}{a_s^2\sqrt{1-e_s^2}} \frac{r_B^2}{L^2}f_{BY}$$
+
+$$\Gamma_{BY} = \frac{rF_sB_s\pi}{a_s^2\sqrt{1-e_s^2}} \frac{r_B^2}{[L]^2}f_{BY}$$
+At the Long-term equilibrium position, these two torques are euqal
+
+$$\Gamma^{tid}_A = \Gamma_{BY} \Rightarrow r^7 = $$
 
 
 
