@@ -24,7 +24,9 @@ Considering the Yorp torque is a constant, the envolution time is a function of 
 ![SepTime](SepTime.png)
 
 ## InitialPosition Version 1.0
-This sub-code aims to study the initial speration position w.r.t shape and ratio of mass. **Meanwhile, the expression of Long-term equilibrium in [(Wang et al 2021)](10.1093/mnras/stab1585) **
+This sub-code aims to study the initial speration position w.r.t shape and ratio of mass. **Meanwhile, the expression of Long-term equilibrium in [(Wang et al 2021)](https://academic.oup.com/mnras/article-abstract/505/4/6037/6291199?redirectedFrom=fulltext&login=false) is corrected here.**
+
+
 
 
 
