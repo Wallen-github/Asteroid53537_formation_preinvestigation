@@ -49,9 +49,7 @@ Then we iterate the mass ratio $\mu_B = [0, 0.5]$ and primary's shape $a_A/a_B =
 ## Preinvestigation Version 4.3
 
 This version upgraded the propagation program by using parallel computing to speed up. Considering the memory limitation, Yorp torque is also amplified 1E5. The result is shown below. Select the initial position from $3r_A$ to $8r_A$, six simulations are implemented. The propagation time is 1.2 times the estimated evolution time
-$$
-1.2 \times [\frac{\frac{2 \pi}{P_{r 2}}-\frac{2 \pi}{P_{r 1}}}{\tau_Y}]
-$$
+$$1.2 \times [\frac{\frac{2 \pi}{P_{r 2}}-\frac{2 \pi}{P_{r 1}}}{\tau_Y}]$$
 
 in which, we choose the initial period $P_{r2}$ is $P_a / 5.123$ and the separate period is $P_{r1} = P_a/1.5$. We can find that the smaller the initial mutual distance, the lower separation speed. In the results, the smaller initial mutual distance prefers breaking at $2:1$ resonance, and  others are $3:2$ resonance.
 
