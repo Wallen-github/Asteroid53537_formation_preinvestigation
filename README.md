@@ -43,3 +43,12 @@ $$e_s = 0.07949126748318633, F_s = 1\times10^7 kg m/s^2,B_s = \frac{2}{3}, f_{BY
 Then we iterate the mass ratio $\mu_B = [0, 0.5]$ and primary's shape $a_A/a_B = [1,1.5]$, the positions can be computed from every combination of mass ratio and primary's shape. Results are shown in following figure,
 
 ![LongEqPosition](LongEqPosition.png)
+
+## Preinvestigation Version 4.3
+
+This version is upgraded the propogation program by using parallel computing to speed up. Considering the memory limitation, Yorp torque is also amplified 1E5. Result is shown below. Select the initial position from $3r_A$ to $8r_A$, six simulations are implemented. Propagation time is 
+$$
+\frac{\frac{2 \pi}{P_{r 2}}-\frac{2 \pi}{P_{r 1}}}{\tau_Y}
+$$
+
+![omegan_7pro](omegan_7pro.png)
