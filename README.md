@@ -37,8 +37,8 @@ $$\Gamma^{tid}_A = \Gamma_{BY} \Rightarrow r^7 = \frac{3}{2}\frac{k_2^A}{Q_A}\fr
 in which, we have to note that $\alpha_B = r_B/[L]$ that is related to the secondary's radii $r_B$ and $a_A$ is the primary's longest semi-axis. Hence, the position of long-term equilibrium is just the function of secondary's size and primary's shape. 
 
 These parameters of 53537-503955 pair are listed in below:
-$$r_A = 1500 m, \frac{k_2^A}{Q_A} = 6\times10^5 \frac{r_A}{1\times 10^3 m}, a_s = 2.449111518894087 AU, \\
-e_s = 0.07949126748318633, F_s = 1\times10^7 kg m/s^2,B_s = \frac{2}{3}, f_{BY} = 0.01, [L] = a_A + a_B$$
+$$r_A = 1500 m, \frac{k_2^A}{Q_A} = 6\times10^5 \frac{r_A}{1\times 10^3 m}, a_s = 2.449111518894087 AU, $$
+$$e_s = 0.07949126748318633, F_s = 1\times10^7 kg m/s^2,B_s = \frac{2}{3}, f_{BY} = 0.01, [L] = a_A + a_B$$
 
 Then we iterate the mass ratio $\mu_B = [0, 0.5]$ and primary's shape $a_A/a_B = [1,1.5]$, the positions can be computed from every combination of mass ratio and primary's shape. Results are shown in following figure,
 
