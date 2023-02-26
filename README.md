@@ -24,6 +24,20 @@ Considering the Yorp torque is a constant, the evolution time is a function of $
 
 ![SepTime](SepTime.png)
 
+
+
+## Preinvestigation Version 5.1
+
+Introduce the error bar of Yorp torque from [(B. Rozitis and S. F. Green 2013)](https://academic.oup.com/mnras/article/430/2/1376/2892574),
+
+$$\tau_Y = \dot{\omega}=1.20_{-0.86}^{+1.6} \times 10^{-2}\left(\mathrm{a}_s^2 \sqrt{1-\mathrm{e}_s^2} \mathrm{D}_A^2\right)^{-1}$$
+
+in which $\dot{\omega}$ in $rad ~ yr^{-2}$can be estimated from its semimajor axis ($a_s$ in au), eccentricity ($e_s$) and diameter ($D_A$ in km).
+
+![SepTime_errbar](SepTime_errbar.png)
+
+
+
 ## InitialPosition Version 1.0
 
 This sub-code aims to study the initial separation position w.r.t shape and ratio of mass. **Meanwhile, the expression typo of Long-term equilibrium in [(Wang et al 2021)](https://academic.oup.com/mnras/article-abstract/505/4/6037/6291199?redirectedFrom=fulltext&login=false) is corrected here.**
@@ -36,9 +50,9 @@ At the Long-term equilibrium position, these two torques are equal
 
 $$\Gamma^{tid}_A = \Gamma_{BY} \Rightarrow r^7 = \frac{3}{2}\frac{k_2^A}{Q_A}\frac{\mu_B^2a_s^2\sqrt{1-e_s^2}}{F_sB_s\pi\alpha_B^2}(\frac{a_A}{[L]})^5$$
 
-in which we have to note that $\alpha_B = r_B/[L]$ that is related to the secondary's radii $r_B$ and $a_A$ is the primary's longest semi-axis. Hence, the position of long-term equilibrium is just the function of secondary's size and primary's shape. 
+in which, we have to note that $\alpha_B = r_B/[L]$ that is related to the secondary's radii $r_B$ and $a_A$ is the primary's longest semi-axis. Hence, the position of long-term equilibrium is just the function of secondary's size and primary's shape. 
 
-These parameters of 53537-503955 pair are listed below:
+These parameters of 53537-503955 pair are listed in below:
 $$r_A = 1500 m, \frac{k_2^A}{Q_A} = 6\times10^5 \frac{r_A}{1\times 10^3 m}, a_s = 2.449111518894087 AU, $$
 $$e_s = 0.07949126748318633, F_s = 1\times10^7 kg m/s^2,B_s = \frac{2}{3}, f_{BY} = 0.01, [L] = a_A + a_B$$
 
@@ -46,10 +60,14 @@ Then we iterate the mass ratio $\mu_B = [0, 0.5]$ and primary's shape $a_A/a_B =
 
 ![LongEqPosition](LongEqPosition.png)
 
+
+
 ## Preinvestigation Version 4.3
 
 This version upgraded the propagation program by using parallel computing to speed up. Considering the memory limitation, Yorp torque is also amplified 1E5. The result is shown below. Select the initial position from $3r_A$ to $8r_A$, six simulations are implemented. The propagation time is 1.2 times the estimated evolution time
-$$1.2 \times [\frac{\frac{2 \pi}{P_{r 2}}-\frac{2 \pi}{P_{r 1}}}{\tau_Y}]$$
+$$
+1.2 \times [\frac{\frac{2 \pi}{P_{r 2}}-\frac{2 \pi}{P_{r 1}}}{\tau_Y}]
+$$
 
 in which, we choose the initial period $P_{r2}$ is $P_a / 5.123$ and the separate period is $P_{r1} = P_a/1.5$. We can find that the smaller the initial mutual distance, the lower separation speed. In the results, the smaller initial mutual distance prefers breaking at $2:1$ resonance, and  others are $3:2$ resonance.
 
